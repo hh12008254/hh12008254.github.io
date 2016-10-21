@@ -1,0 +1,332 @@
+<HTML>
+<HEAD>
+  <TITLE>biotech.html</TITLE>
+  <meta NAME = "GENERATOR"          CONTENT = "IHMC CmapTools vr. 4.12 ">
+  <meta NAME = "KEYWORDS"           CONTENT = "Hafsa Hanafi, Concept Map, cmap, CmapTools, IHMC, What is Biotech,  Biostaticians,  Size: start-up to medium,  Industry and Research,  In Lab Careers,  Technical Writer,  recumbinant DNA,  Development Process: innovative,  Non-Laboratory Careers,  develop solutions to problems,  applied research,  processes don't harm the environment,  Expertise: Chemical,  Govermental Insitutions,  FDA, EPA, USDA, OSHA,  Business Approach: Low risk,  items for specific uses,  Life Science Researchers,  Research Associate,  products are researched, developed, and manufactured correctly and consistently,  understand how cells and proteins function">
+  <meta NAME = "DESCRIPTION"        CONTENT = "This Concept Map, created with IHMC CmapTools, has information related to: What is Biotech, In Lab Careers such as Laboratory Technician, Biotechnology companies with traits such as Expertise: Biological, Biotechnology companies which differ from Pharmaceutical companies, biotechnological tools/techniques such as recumbinant DNA, technology using biological systems to create items for specific uses, Pharmaceutical companies with traits such as Development Process: Formal, Life Science Researchers to understand more about life, Govermental Insitutions main agencies are FDA, EPA, USDA, OSHA, Life Science Researchers who use biotechnological tools/techniques, biotechnological tools/techniques such as cell culture, Biotechnology used for Industry and Research, Careers include Non-Laboratory Careers, more about life through discovering how systems work, Biotechnology is built on Specific Practices, Biotechnology companies with traits such as Size: start-up to medium, Pharmaceutical companies with traits such as Business Approach: Low risk, Specific Practices established by International organizations such as the ISO, International organizations such as the ISO to ensure that products are researched, developed, and manufactured correctly and consistently, cell culture in order to understand how cells and proteins function, Non-Laboratory Careers for example Market Specialists">
+  <meta NAME = "AUTHOR"             CONTENT = "IHMC CmapTools">
+  <meta HTTP-EQUIV = "Content-Type" CONTENT = "text/html; charset = UTF-8">
+  <script LANGUAGE="JavaScript1.2">
+  <!--
+    //  PopUp --
+    //  Institute for Human and Machine Cognition, http://www.ihmc.us/
+    //  CmapTools, Version 4.11, http://cmap.ihmc.us/
+    //  Modify by: CmapTools Developers, cmapsupport@ihmc.us
+    //  Date: 12/14/2006
+
+    var IE = 0;
+    var IE4PC = 0;
+    var NS = 0;
+    var GECKO = 0;
+
+    var openpopups = new Array();
+
+    if (document.all) {                 // Internet Explorer Detected
+	   IE = true;	
+    }
+    else if (document.layers) {         // Netscape Navigator Detected
+	   NS = true;	
+    }
+    else if (document.getElementById) { // Netscape 6 Detected
+       GECKO = true;
+    }
+    else {
+	   alert("Unrecognized Browser Detected::\nSorry, your browser is not compatible.");
+    }
+
+    if (IE)
+    {
+	   OS = navigator.platform;
+	   VER = new String(navigator.appVersion);
+	   VER = VER.substr (0, VER.indexOf(" "));
+	   if ((VER < 4.8) && (OS == "Win32")) 
+	   {
+	       IE4PC = 1;
+	   }
+    }
+
+    function handleResize() {
+	    location.reload();
+	    return false;
+    }
+
+
+    if ((NS) && (navigator.platform == "MacPPC")) {
+	   window.captureEvents (Event.RESIZE);
+	   window.onresize = handleResize;
+    }
+
+    function openResource(event, resourcePath, resourceName, resourceType)
+    {
+	   var newwindow;
+
+       // Resource MIMETypes are enumerated as follows: 
+       // cMap     = Undefined
+       // Image    = 0
+       // Video    = 1
+       // Text     = 2
+       // Audio    = 3
+
+       popDown();
+
+	   switch (resourceType) 
+	   {
+	    case 0:     //Image
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<center><img src=\"';
+                    text += resourcePath;
+                    text +='\"> </center>';
+             break;
+		
+	    case 1:  text   // Video
+		     newwindow = window.open (resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+                     var text ='<embed src=\"';
+                     text += resourcePath;
+                     text +='\" autostart=true> </embed> ';
+             break;
+
+	    case 2:      // Text or Unknown 
+		     newwindow = window.open(resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+              break;
+
+	    case 3:       // Audio
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<embed src=\"';
+                    text += resourcePath;
+                    text +='\" autoplay=true> </embed> ';
+             break;
+
+	    case 4:
+                    newwindow = window.open(resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+	     break;
+	    }
+        return;
+    }
+
+
+
+    function popUpEvt(event, popupName)
+    {
+	popDown();
+
+	if (GECKO)
+	{
+	    document.getElementById(popupName).style.left = event.layerX;
+	    document.getElementById(popupName).style.top = event.layerY;
+	    document.getElementById(popupName).style.background = "#B3B3B3";
+	    document.getElementById(popupName).style.visibility = "visible";
+	    openpopups.push(popupName);
+	}
+	else if (NS) 
+	{
+	    document.layers[popupName].moveTo (event.pageX, event.pageY);
+	    document.layers[popupName].bgColor = "#B3B3B3";
+	    document.layers[popupName].visibility = "show";
+	    openpopups.push(popupName);
+	}
+	else // if (IE)
+	{
+	    window.event.cancelBubble = true;
+	    if (!IE4PC) {
+		document.all[popupName].style.backgroundColor = "#B3B3B3";
+	    }	
+	    document.all[popupName].style.left = window.event.clientX + document.body.scrollLeft;
+	    document.all[popupName].style.top = window.event.clientY + document.body.scrollTop;
+	    document.all[popupName].style.visibility = "visible";
+	    openpopups[openpopups.length] = popupName;
+	}
+	return false;
+    }
+
+    function popDown()
+    {
+	var popupname;
+	
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+		document.getElementById(popupname).style.visibility = "hidden";
+	    }
+	    else if (NS) {
+		document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+		document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+	return;
+    }
+
+    function popDownNoGecko() 
+    {
+	var popupname;
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+           //  document.getElementById(popupname).style.visibility = "hidden"; 
+	        return;   // erased for test purposes
+	    }  
+	    else if (NS) {
+	        document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+	        document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+        return;
+    }
+  //-->
+  </script>
+</HEAD>
+<BODY bgcolor="#FFFFFF" leftmargin="0" topmargin="0">
+<noscript>
+  <table width=90% cellpadding=10>
+    <tr>
+      <td bgcolor=ff4447>
+        <font color=000000 size=+1 face="helvetica">
+        <h1>WARNING:</h1>
+        <b>JavaScript is turned OFF.  None of the links on this concept map will <br>
+           work until it is reactivated.
+          <p>
+            <a href="http://cmap.ihmc.us/docs/EnablingJavaScript.html">
+                            If you need help turning JavaScript On, click here.
+            </a>
+          </p>
+        </b>
+      </td>
+    </tr>
+  </table>
+This Concept Map, created with IHMC CmapTools, has information related to: What is Biotech, In Lab Careers such as Laboratory Technician, Biotechnology companies with traits such as Expertise: Biological, Biotechnology companies which differ from Pharmaceutical companies, biotechnological tools/techniques such as recumbinant DNA, technology using biological systems to create items for specific uses, Pharmaceutical companies with traits such as Development Process: Formal, Life Science Researchers to understand more about life, Govermental Insitutions main agencies are FDA, EPA, USDA, OSHA, Life Science Researchers who use biotechnological tools/techniques, biotechnological tools/techniques such as cell culture, Biotechnology used for Industry and Research, Careers include Non-Laboratory Careers, more about life through discovering how systems work, Biotechnology is built on Specific Practices, Biotechnology companies with traits such as Size: start-up to medium, Pharmaceutical companies with traits such as Business Approach: Low risk, Specific Practices established by International organizations such as the ISO, International organizations such as the ISO to ensure that products are researched, developed, and manufactured correctly and consistently, cell culture in order to understand how cells and proteins function, Non-Laboratory Careers for example Market Specialists
+
+</noscript>
+
+<map name="biotech.html">
+  <area shape="rect"
+        href="1QNZYV05WIKZ2YNLI257ItextIhtml"
+        onClick="popUpEvt(event,'1QNZYV05WIKZ2YNLI257ItextIhtml'); return false;"
+        coords="473,554,491,572">
+  <area shape="rect"
+        href="1QNWXV6SDI22W9FS2I15VItextIhtml"
+        onClick="popUpEvt(event,'1QNWXV6SDI22W9FS2I15VItextIhtml'); return false;"
+        coords="1025,44,1043,62">
+  <area shape="rect"
+        href="1QNZYTLXRI1NXSXR9I241ItextIhtml"
+        onClick="popUpEvt(event,'1QNZYTLXRI1NXSXR9I241ItextIhtml'); return false;"
+        coords="378,541,396,559">
+  <area shape="rect"
+        href="1QP5Z37DMI1LVYV9DI4PRItextIhtml"
+        onClick="popUpEvt(event,'1QP5Z37DMI1LVYV9DI4PRItextIhtml'); return false;"
+        coords="1485,380,1503,398">
+  <area shape="rect"
+        href="1QNZV5NFDI16WB8LWIFPItextIhtml"
+        onClick="popUpEvt(event,'1QNZV5NFDI16WB8LWIFPItextIhtml'); return false;"
+        coords="1773,203,1791,221">
+</map>
+
+<center>
+  <table width=* height=* cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td valign=center align=center>
+        <img USEMAP="#biotech.html"
+             SRC="biotech.jpg"
+             ALIGN=middle
+             BORDER=0
+             onClick=popDown();>
+      </td>
+    </tr>
+    <tr>
+      <td VALIGN=top ALIGN=right>
+        <table>
+          <tr>
+            <td ALIGN=right VALIGN=middle>
+              <map NAME="CmapToolsTrademark">
+                <area SHAPE="rect"
+                      href="http://cmap.ihmc.us/"
+                      onClick="openResource(event,'http://cmap.ihmc.us/', 0, 2); return false;"
+                      coords="1,1,210,50">
+              </map>
+            </td>
+          </tr>
+          <tr>
+            <td  ALIGN=right VALIGN=middle>
+              <img USEMAP="#CmapToolsTrademark"
+                   SRC="CmapToolsTrademark.gif" 
+                   ALT="IHMC Cmap Tools Trademark" width="210" height="50"
+                   ALIGN=middle
+                   BORDER=0>
+            </td>
+            <td VALIGN=middle>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</center>
+</BODY>
+</HTML>
+<div id="1QNZYV05WIKZ2YNLI257ItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://www.rpi.edu/dept/chem-eng/Biotech-Environ/Projects00/rdna/rdna.html "TITLE="">
+      Recumbinant DNA Basics
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1QNWXV6SDI22W9FS2I15VItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://youtu.be/Wm6_BBS_KE4 "TITLE="">
+      Introduction to Biotechnology
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1QNZYTLXRI1NXSXR9I241ItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="http://bio100.class.uic.edu/lecturesf04am/lect06.htm "TITLE="">
+      Cell Structure and Function
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1QP5Z37DMI1LVYV9DI4PRItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="http://www.iso.org/iso/home.html "TITLE="">
+      ISO
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1QNZV5NFDI16WB8LWIFPItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="http://www.biotechinstitute.org/go.cfm?do=Page.View&pid=23 "TITLE="">
+      Careers in Biotechnology
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
